@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "./cypress/integration",
+    "strict": true,
+    "baseUrl": "../node_modules",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "types": [
+      "cypress",
+    ]
+  },
+  "include": ["**/*.ts", "./index.d.ts"],
+  "exclude": [
+    "./node_modules/**.ts",
+  ]
+}
